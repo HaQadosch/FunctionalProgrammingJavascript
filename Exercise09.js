@@ -49,7 +49,7 @@
   // Use two nested forEach loops to flatten the movieLists into a list of
   // video ids.
   // ------------   INSERT CODE HERE!  -----------------------------------
-
+  movieLists.forEach(category => category.videos.forEach(video => allVideoIdsInMovieLists.push(video.id)));
   return allVideoIdsInMovieLists;
 
 }());
