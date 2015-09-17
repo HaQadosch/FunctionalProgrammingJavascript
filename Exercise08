@@ -40,9 +40,6 @@
 
   return newReleases
     .filter(video => (video.rating === 5.0))
-    .map(video => ({
-        'id':video.id
-      , 'title': video.title
-    })); // Complete this expression
+    .map(video => video.id); // Complete this expression
   // ------------ INSERT CODE HERE! -----------------------------------
-());
+}());
