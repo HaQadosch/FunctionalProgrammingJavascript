@@ -48,6 +48,7 @@
 	// Use map and concatAll to flatten the movieLists in a list of video ids.
 	// ------------   INSERT CODE HERE!  -----------------------------------
 
-	return movieLists // Complete this expression!
+	return movieLists.
+	 // Complete this expression!
 
 }());
